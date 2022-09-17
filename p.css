@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    position: relative;
+    justify-content: right;
+    background-color: #02b290;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+
+.sub-click {
+    display: block;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+.sub-btn {
+    margin-bottom:10px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: bolder;
+    margin-top: 5px;
+
+}
+
+.myCountry{
+    color: #ffff;
+}
+
+.head{
+    display: flex;
+    padding: 1px;
+    line-height: 2px;
+}
+
+.head.active{
+    display: flex;
+}
+
+.hottestGist {
+    margin-top: 0px;
+    color: #ffff;
+    line-height: 5px;
+}
+
+.myCountry {
+    margin-left: 45px;
+    width: 800px;
+    padding: 20px;
+}
+
+#close-env {
+    font-size: 40px;
+    background: white;
+    display: inline-block;
+    padding: 10px 10px; 
+    border-radius: 200%;
+    position: absolute;
+    color: #3b685f;
+    border:  6px solid #ffff;
+   
+}
+
+.container{
+    width: 500px;
+    height: 80px;
+    margin: 0px auto;
+    background: #3b685f;
+    border: none;
+    margin-right: 30px;
+    display: flex;
+    line-height: 3px;
+}
+
+.container .bodyContainer {
+
+}
+
+.wrapper.active {
+    display: block;
+}
+
+.bodyContainer {
+    display: flex;
+}
+
+.bodyContainer .card {
+    padding: 5px 15px 30px;
+    width: 500px;
+    height: 150px;
+    margin: 0px auto;
+    background: #3b685f;
+    color: white;
+    border: solid 5px;
+    border-color: black;
+    margin-right: 30px;
+    margin-top: 20px;  
+    margin-bottom: 0px;
+}
+
+.sub-icon {
+    display: flex;
+}
+
+#open-evn {
+    font-size: 80px;
+}
+
+#sub-icon-el{
+    margin-left: 20px;
+    font-size: medium;
+    font-size: 20px;
+}
+
+.sub-form input{
+    width: 70%;
+    border: 1px solid #dedede;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 2px;
+    background: #fff;
+}
+
+.sub-form button {
+    width: 100px;
+    padding: 3px 3px;
+    border: 0;
+    border-radius: 2px;
+    margin-top: 10px;  
+    height: 47px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    background-color: #FFD700;
+    color: black;
+}
+
+.sub-form button:hover{
+    background: white;
+}
+
+#footer {
+    justify-content: center;
+    margin-left: 810px;
+    color: #ffff;
+    font-size: 10px;
+    margin-top: 70px;
+}
+
+svg {
+    color: #3b685f;
+    fill: #FFD700;
+  }
+
